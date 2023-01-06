@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "jalos",
+  "version": "${version}",
+  "name": "jalos",
+  "description": "Just a Lot of Stuff",
+  "authors": [
+    "0xJoeMama"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/jalos/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [],
+    "main": []
+  },
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "1.19.2",
+    "fabric-language-kotlin": "*"
+  }
+}
